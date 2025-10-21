@@ -1,0 +1,61 @@
+footer { background-color: #ADD8E6;
+	font-family: Arial;
+	color: #00008B;
+	padding: 10px;
+	border: 1px dashed #00008B; }
+
+#notice { width: 80%;
+	margin: 0 auto; }
+
+.headline { color: #4B0082;
+	border-bottom: 2px dotted #4B0082;
+	font-size: 2em;
+	padding-bottom: 5px; }
+
+h1 { font-family: sans-serif;
+	font-size: 4em;
+	background-color: rgba(0, 0, 0, 0.5);
+	color: #FFFFFF;
+	text-shadow: 2px 2px 5px #000000;
+	padding: 10px; }
+
+#section { font-family: Arial;
+	font-size: small;
+	color: ##FF0000;
+	background-color: #FFFFFF;
+	width: 80%;
+	margin: 0 auto;
+	box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.3);
+	padding: 10px; }
+
+nav a:link { background-color: #E0F7FA;
+	color: #004D40;
+	text-decoration: underline; }
+
+nav a:hover { background-color: #B2EBF2;
+	color: #004D40;
+	text-decoration: none; }
+
+nav a:visited { background-color: #FCE4EC;
+	color: #880E4F; }
+
+
+.topnav ul { list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 20px; }
+
+.topnav a { text-decoration: none;
+  color: white;
+  font-weight: bold;
+  padding: 10px 20px;
+  display: block; }
+
+.topnav a:hover { background-color: #0055aa;
+  border-radius: 4px; }
+
+.topnav { background-color: #003366; }
+
+.topnav li { margin: 0; }
